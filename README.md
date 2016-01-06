@@ -7,9 +7,10 @@ Below are blogs I regulary visit and read and other resources that may be useful
 ### Web resources
 1. [Flowgrammable] (http://flowgrammable.org/) is a lode stone of resources that should be mined for hours (bad pun is bad i know).
 2. [The Packet Pushers] (http://www.packetpushers.net) podcasts (hosted by [Ethan Banks] (http://www.), [Greg Ferro] (http://www.), [Drew Conray-Murray] (http://www.), [Chris Wahl] (http://www.)) are very good with regards to networking and IT and there are a couple of really good podcasts that cover sdn, openflow  and some great conversations with some "VERY" knowledgeable hosts.
-2. [Ivan Pepelnjak] (http://podcast.ipspace.net) with Sofware gone wild also has great content
-3. [Matt Oswalt] (http://www.keepingitclassless.net) has a series on OpenFlow.
-4. [Brent Salisbury] (http://www.networkstatic.net) has some openflow and sdn articles
-5. There is a very good series by Sridhar Rao at [thenewstack.io] (http://thenewstack.io/author/sridharrao/)
-6. The [SDN course] (http://academy.gns3.com/courses/a-practical-sdn-and-openflow-introduction) on [GNS3 Academy] (http://academy.gns3.com/) by [David Bombal] (https://www.linkedin.com/in/davidbombal) is another good resource. They tend to have sales regularly so watch out for them.
-7. [David Bombal] (https://www.linkedin.com/in/davidbombal) also has some good materials at [pakiti.com] (http://pakiti.com/)
+3. [Ivan Pepelnjak] (http://podcast.ipspace.net) with Sofware gone wild also has great content
+4. [Matt Oswalt] (http://www.keepingitclassless.net) has a series on OpenFlow.
+5. [Brent Salisbury] (http://www.networkstatic.net) has some openflow and sdn articles
+6. There is a very good series by Sridhar Rao at [thenewstack.io] (http://thenewstack.io/author/sridharrao/)
+7. The [SDN course] (http://academy.gns3.com/courses/a-practical-sdn-and-openflow-introduction) on [GNS3 Academy] (http://academy.gns3.com/) by [David Bombal] (https://www.linkedin.com/in/davidbombal) is another good resource. They tend to have sales regularly so watch out for them.
+8. [David Bombal] (https://www.linkedin.com/in/davidbombal) also has some good materials at [pakiti.com] (http://pakiti.com/)
+9. [TechFieldDay] (http://techfieldday.com/) has a ton of very good videos from vendors. SDN related videos are mainly found in the [NetworkingFieldDay] (http://techfieldday.com/nfd/) videos. Organized by [Stephen Foskett] (http://blog.fosketts.net/) with industry professionals as the panel.
