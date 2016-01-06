@@ -5,7 +5,8 @@ This is my study note I used while preparing for the ONF Associate exam. Those f
 Below are blogs I regulary visit and read and other resources that may be useful. I will add more as I come across.
 
 ### Web resources
-1. [The Packet Pushers] (http://www.packetpushers.net) podcasts (hosted by Ethan Banks, Greg Ferro, Drew Conray-Murray, Chris Wahl) are very good with regards to networking and IT and there are a couple of really good podcasts that cover sdn, openflow  and some great conversations with some "VERY" knowledgeable hosts. 
-2. [Matt Oswalt] (http://www.keepingitclassless.net) has a series on OpenFlow.
-3. [Brent Salisbury] (http://www.networkstatic.net) has some openflow and sdn articles
-4. There is a very good series by Sridhar Rao at [thenewstack.io] (http://thenewstack.io/author/sridharrao/)
+1. [The Packet Pushers] (http://www.packetpushers.net) podcasts (hosted by [Ethan Banks] (http://www.), [Greg Ferro] (http://www.), [Drew Conray-Murray] (http://www.), [Chris Wahl] (http://www.)) are very good with regards to networking and IT and there are a couple of really good podcasts that cover sdn, openflow  and some great conversations with some "VERY" knowledgeable hosts.
+2. [Ivan Pepelnjak] (http://podcast.ipspace.net) with Sofware gone wild also has great content
+3. [Matt Oswalt] (http://www.keepingitclassless.net) has a series on OpenFlow.
+4. [Brent Salisbury] (http://www.networkstatic.net) has some openflow and sdn articles
+5. There is a very good series by Sridhar Rao at [thenewstack.io] (http://thenewstack.io/author/sridharrao/)
