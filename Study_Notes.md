@@ -15,7 +15,7 @@ This is a repository to track my preparation for the ONF Certified Associate Cer
 ##### DOMAIN 1: NETWORKING CONCEPTS 15%
 _Identify and compare the layers of OSI and TCP/IP models and functionality of various fundamental elements of networking._
   * OSI Model - ISO/IEC 7498-1: a standard of the International Organization for Standardization (ISO). It is a general-purpose paradigm for discussing or describing how computers communicate with one another over a network. Its seven-layered approach to data transmission divides the many operations up into specific related groups of actions at each layer 
-2. OSI and TCP/IP Comparison.
+1. OSI and TCP/IP Comparison.
 
     <table>
       <tr><center>
@@ -30,7 +30,7 @@ _Identify and compare the layers of OSI and TCP/IP models and functionality of v
       </tr>
       
       <tr>
-        <td>Presentation&nbsp;</td>
+        <td>Presentation</td>
       </tr>
       
       <tr>
@@ -38,25 +38,26 @@ _Identify and compare the layers of OSI and TCP/IP models and functionality of v
       </tr>
     
       <tr>
-        <td>Transport&nbsp;</td>
-        <td>Transport&nbsp;</td>
+        <td>Transport</td>
+        <td>Transport</td>
       </tr>
     
       <tr>
-        <td>Network&nbsp;</td>
-        <td>Internet&nbsp;</td>
+        <td>Network</td>
+        <td>Internet</td>
       </tr>
     
       <tr>
-        <td>Data Link&nbsp;</td>
-        <td rowspan = "2">Network Access&nbsp;</td>
+        <td>Data Link</td>
+        <td rowspan = "2">Network Access</td>
       </tr>
     
       <tr>
         <td>Physical&nbsp;</td>
       </tr>
     </table>
-    From [studytonight] (http://www.studytonight.com/computer-networks/comparison-osi-tcp-model), following are some major differences between OSI Reference Model and TCP/IP Reference Model, with diagrammatic comparison below.<table>
+_From [studytonight] (http://www.studytonight.com/computer-networks/comparison-osi-tcp-model), following are some major differences between OSI Reference Model and TCP/IP Reference Model, with diagrammatic comparison below._
+    <table>
        <tr>
          <td><b>OSI (Open System Interconnection)</b></td>
          <td><b>TCP/IP (Transmission Control Protocol / Internet Protocol)</b></td>
