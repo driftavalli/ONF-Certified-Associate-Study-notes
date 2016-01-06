@@ -245,7 +245,7 @@ WAN Optimization & Innovation: The use of SDN through NfV reduces network comple
   * Switches: An SDN switch is a software program or hardware device that forwards packets in a software-defined networking (SDN) environment. OpenFlow SDN switches are either based on the OpenFlow protocol or compatible with it. In a traditional network switch, packet forwarding (the data plane) and high-level routing (the control plane) occur on the same device. In software-defined networking, the data plane is decoupled from the control plane. The data plane is still implemented in the switch itself but the control plane is implemented in software and a separate SDN controller makes high-level routing decisions. The switch and controller communicate by means of the OpenFlow protocol.
   * Orchestration: Orchestration in a network context can be defined as the use of the automation to provide services using applications that drive the network. Software-defined networking (SDN) orchestration is the ability to program automated behaviours in a network to coordinate the required networking hardware and software elements to support applications and services.
   * API's: An API is an interface presented by an application/software (e.g. network operating system) that provides the capability to collect information from or make a change to an underlying set of resources. In SDN, there are two classes of API seeing great development and debate, Northbound Interfaces (NBI) and Southbound Interface (SDI).
-The southbound application program interfaces (APIs) are used to communicate between the SDN Controller and the switches and routers of the network. They can be open or proprietary. 
+   1. The southbound application program interfaces (APIs) are used to communicate between the SDN Controller and the switches and routers of the network. They can be open or proprietary. 
 The most well-known southbound interface is OpenFlow, others include:
 
 			   - NetConf using XML
@@ -253,8 +253,7 @@ The most well-known southbound interface is OpenFlow, others include:
 			   - Cisco OnePK
 			   - Brocade OpenScript.
 			   
-The northbound application program interfaces (APIs) are used to communicate between the SDN Controller and the services and applications running over the network. The northbound APIs can be used to facilitate innovation and enable efficient orchestration and automation of the network to align with the needs of different applications via SDN network programmability.
-One of the benefits of an API is the abstraction it provides to a querying system. This abstraction hides the underlying system from the querying system and frees it from such considerations as:
+   2. The northbound application program interfaces (APIs) are used to communicate between the SDN Controller and the services and applications running over the network. The northbound APIs can be used to facilitate innovation and enable efficient orchestration and automation of the network to align with the needs of different applications via SDN network programmability. One of the benefits of an API is the abstraction it provides to a querying system. This abstraction hides the underlying system from the querying system and frees it from such considerations as:
 
 			   + the remote system’s query commands.
 			   + how information is organized.
@@ -262,13 +261,23 @@ One of the benefits of an API is the abstraction it provides to a querying syste
 
   
 12. Overlay Networking Abstractions (NFV, VxLAN, etc.)
-  * Alpha
-  * Bravo
+  * NFV: Network Functions Virtualisation aims to transform network architecture by evolving standard IT virtualisation technology to consolidate many network equipment types onto industry standard high volume servers, switches and storage, which could be located in Datacentres, Network Nodes and in the end user premises. It involves the implementation of network functions in software that can run on a range of industry standard server hardware, and that can be moved to, or instantiated in, various locations in the network as required, without the need for installation of new equipment.
+  * VxLAN: VXLAN is a L2 in L3 tunneling mechanism that supports L2 learning and tenancy information.
+  * STT
+  * NVGRE
+  * GENEVE
+
  
 ### DOMAIN 3: OPENFLOW® 25%
 13. Identify at a concept/definition level the OpenFlow® Protocol operations and list the packet types and contents.
-  * Alpha
-  * Bravo
+The first resort should be the ONF OpenFlow specification documents, the various versions can be found [here] (), [here] (), [here] (), [here] (), [here] (), [here] (), [here] () and up to [2.0] (). [Flowgrammable] (http://flowgrammable.org/) is also a great site for a concise comparision of the different protocol version. The table below is gotten from the [Message Layer] (http://flowgrammable.org/sdn/openflow/message-layer/) page and the entire site is worth spending a couple of hours on.
+
+  * TCP level secure channel/communication/session establishment between controller/switch: OpenFlow uses TCP as its transport protocol. Well known TCP ports for OpenFlow traffic are 6633 and 6653
+  * Message Types: OpenFlow messages are used for communication between the controller and the switch for establishing the connection, sending the flows, polling the flow/port statistics, and notifying the controller etc. Every OpenFlow message begins with the same header structure. This fixed structure serves three roles that are independent of the version of OpenFlow being used. First, the version field indicates the version of OpenFlow which this message belongs. Second, the length field indicates where this message will end in the byte stream starting from the first byte of the header. Third, the xid, or transaction identifier, is a unique value used to match requests to responses. The type field which indicates what type of message is present and how to interpret the payload, is version dependent.
+  * ![OpenFlow Messages] (https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+)
+
+  
 14. TCP level secure channel/communication/session establishment between controller/switch
   * Alpha
   * Bravo
