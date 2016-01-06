@@ -270,20 +270,15 @@ The most well-known southbound interface is OpenFlow, others include:
  
 ### DOMAIN 3: OPENFLOW® 25%
 13. Identify at a concept/definition level the OpenFlow® Protocol operations and list the packet types and contents.
-The first resort should be the ONF OpenFlow specification documents, the various versions can be found [here] (), [here] (), [here] (), [here] (), [here] (), [here] (), [here] () and up to [2.0] (). [Flowgrammable] (http://flowgrammable.org/) is also a great site for a concise comparision of the different protocol version. The table below is gotten from the [Message Layer] (http://flowgrammable.org/sdn/openflow/message-layer/) page and the entire site is worth spending a couple of hours on.
+
+	The first resort should be the ONF OpenFlow specification documents, the various versions can be found [here] (), [here] (), [here] (), [here] (), [here] (), [here] (), [here] () and up to [2.0] (). [Flowgrammable] (http://flowgrammable.org/) is also a great site for a concise comparision of the different protocol version. The table below is gotten from the [Message Layer] (http://flowgrammable.org/sdn/openflow/message-layer/) page and the entire site is worth spending a couple of hours on.
 
   * TCP level secure channel/communication/session establishment between controller/switch: OpenFlow uses TCP as its transport protocol. Well known TCP ports for OpenFlow traffic are 6633 and 6653
   * Message Types: OpenFlow messages are used for communication between the controller and the switch for establishing the connection, sending the flows, polling the flow/port statistics, and notifying the controller etc. Every OpenFlow message begins with the same header structure. This fixed structure serves three roles that are independent of the version of OpenFlow being used. First, the version field indicates the version of OpenFlow which this message belongs. Second, the length field indicates where this message will end in the byte stream starting from the first byte of the header. Third, the xid, or transaction identifier, is a unique value used to match requests to responses. The type field which indicates what type of message is present and how to interpret the payload, is version dependent.
-  * ![OpenFlow Messages] (https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-)
+  * ![OpenFlow Messages] (https://github.com/driftavalli/ONF-Certified-Associate-Study-notes/blob/master/Snippet.png)
 
   
-14. TCP level secure channel/communication/session establishment between controller/switch
-  * Alpha
-  * Bravo
-15. Message Types
-  * Alpha
-  * Bravo
+
 16. Basic Operation/Packet Matching
   * Alpha
   * Bravo
