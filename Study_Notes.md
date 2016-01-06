@@ -106,85 +106,237 @@ This is a repository to track my preparation for the ONF Certified Associate Cer
   
 
 ### DOMAIN 2: SDN CONCEPTS 25%
-Describe the fundamental characteristics of SDN, definitions, use cases, and history.
-History of SDN (Clean Slate, Ethane, OpenFlow®, donation to ONF)
-What is SDN? (control and forwarding)
-SDN Value Proposition
-SDN Use Cases in the Data Center
-SDN Use Cases in Campus Networks
-SDN Use Cases in Service Providers
-SDN Use Cases in the Enterprise
-SDN Use Cases in Mobile Networks
-The six characteristics of an SDN Network (Plane Separation, Simplified Forwarding Element, Centralized Control, Network Automation, Virtualization, and Openness)
-SDN Devices (Controllers, Switches, Orchestration, API's)
-Overlay Networking Abstractions (NFV, VxLAN, etc.)
+1. Describe the fundamental characteristics of SDN, definitions, use cases, and history.
+  * Alpha
+  * Bravo
+2. History of SDN (Clean Slate, Ethane, OpenFlow®, donation to ONF)
+  * Alpha
+  * Bravo
+3. What is SDN? (control and forwarding)
+  * Alpha
+  * Bravo
+4. SDN Value Proposition
+  * Alpha
+  * Bravo
+5. SDN Use Cases in the Data Center
+  * Alpha
+  * Bravo
+6. SDN Use Cases in Campus Networks
+  * Alpha
+  * Bravo
+7. SDN Use Cases in Service Providers
+  * Alpha
+  * Bravo
+8. SDN Use Cases in the Enterprise
+  * Alpha
+  * Bravo
+9. SDN Use Cases in Mobile Networks
+  * Alpha
+  * Bravo
+10. The six characteristics of an SDN Network (Plane Separation, Simplified Forwarding Element, Centralized Control, Network Automation, Virtualization, and Openness)
+  * Alpha
+  * Bravo
+11. SDN Devices (Controllers, Switches, Orchestration, API's)
+  * Alpha
+  * Bravo
+12. Overlay Networking Abstractions (NFV, VxLAN, etc.)
+  * Alpha
+  * Bravo
  
 ### DOMAIN 3: OPENFLOW® 25%
-Identify at a concept/definition level the OpenFlow® Protocol operations and list the packet types and contents.
-TCP level secure channel/communication/session establishment between controller/switch
-Message Types
-Basic Operation/Packet Matching
-Differences between OpenFlow® versions
-Proactive vs Reactive Flows
-Statistics/Counters
-Setting up a flow
-Policy Enforcement
-OpenFlow® Management and Configuration Protocol (OF-Config, OAM, OFDPA, OVSDB, etc.)
-Flow Table Entry Format
-Flow Timers
-Pipeline Processing
-Match Types
-Match Actions
+13. Identify at a concept/definition level the OpenFlow® Protocol operations and list the packet types and contents.
+  * Alpha
+  * Bravo
+14. TCP level secure channel/communication/session establishment between controller/switch
+  * Alpha
+  * Bravo
+15. Message Types
+  * Alpha
+  * Bravo
+16. Basic Operation/Packet Matching
+  * Alpha
+  * Bravo
+17. Differences between OpenFlow® versions
+  * Alpha
+  * Bravo
+18. Proactive vs Reactive Flows
+  * Alpha
+  * Bravo
+19. Statistics/Counters
+  * Alpha
+  * Bravo
+20. Setting up a flow
+  * Alpha
+  * Bravo
+21. Policy Enforcement
+  * Alpha
+  * Bravo
+22. OpenFlow® Management and Configuration Protocol (OF-Config, OAM, OFDPA, OVSDB, etc.)
+  * Alpha
+  * Bravo
+23. Flow Table Entry Format
+  * Alpha
+  * Bravo
+24. Flow Timers
+  * Alpha
+  * Bravo
+25. Pipeline Processing
+  * Alpha
+  * Bravo
+26. Match Types
+  * Alpha
+  * Bravo
+27. Match Actions
+  * Alpha
+  * Bravo
  
 ### DOMAIN 4: SDN ARCHITECTURE AND ECOSYSTEM 25%
-Understand and Identify SDN architectural components, standards bodies, controller design, API’s and applications.
-SDN Layers
-SDN Architecture compared to Traditional Network Architectures
-Northbound API's
-Southbound API's
-East/West API's
-Security and Availability
-Packet and Optical Integration methods
-Migration Strategies
-Hybrid Mode Switches
-Organization in the SDN Ecosystem
-Standards Bodies and Industry alliances
-Network Operators and Enterprises
-Network Equipment Manufacturers
-Software vendors
-Academic and Industry research institutions and labs
-Open Source Initiatives
-Who is the ONF and what do they do?
-Purpose
-Structure
-Technical Working Groups
-Open Source Software Development
-Activities and Initiatives
-Controller Placement and Redundancy
-SDN Applications (service chaining, virtualized network functions, analytics)
+1. Understand and Identify SDN architectural components, standards bodies, controller design, API’s and applications.
+  * Alpha
+  * Bravo
+2. SDN Layers
+  * Alpha
+  * Bravo
+3. SDN Architecture compared to Traditional Network Architectures
+  * Alpha
+  * Bravo
+4. Northbound API's
+  * Alpha
+  * Bravo
+5. Southbound API's
+  * Alpha
+  * Bravo
+6. East/West API's
+  * Alpha
+  * Bravo
+7. Security and Availability
+  * Alpha
+  * Bravo
+8. Packet and Optical Integration methods
+  * Alpha
+  * Bravo
+9. Migration Strategies
+  * Alpha
+  * Bravo
+10. Hybrid Mode Switches
+  * Alpha
+  * Bravo
+11. Organization in the SDN Ecosystem
+  * Alpha
+  * Bravo
+12. Standards Bodies and Industry alliances
+  * Alpha
+  * Bravo
+13. Network Operators and Enterprises
+  * Alpha
+  * Bravo
+14. Network Equipment Manufacturers
+  * Alpha
+  * Bravo
+15. Software vendors
+  * Alpha
+  * Bravo
+16. Academic and Industry research institutions and labs
+  * Alpha
+  * Bravo
+17. Open Source Initiatives
+  * Alpha
+  * Bravo
+18. Who is the ONF and what do they do?
+  * Alpha
+  * Bravo
+19. Purpose
+  * Alpha
+  * Bravo
+20. Structure
+  * Alpha
+  * Bravo
+21. Technical Working Groups
+  * Alpha
+  * Bravo
+22. Open Source Software Development
+  * Alpha
+  * Bravo
+23. Activities and Initiatives
+  * Alpha
+  * Bravo
+24. Controller Placement and Redundancy
+  * Alpha
+  * Bravo
+25. SDN Applications (service chaining, virtualized network functions, analytics)
+  * Alpha
+  * Bravo
  
 ### DOMAIN 5: OPEN SOURCE SDN 10%
-Identify key open source projects in the SDN Ecosystem.
-OpenFlow® Agents
-Indigo
-Linc
-OVS
-CPqD/ONF Driver (aka "libFluid")
-OpenFlow® Controllers
-NOX
-POX
-ONOS
-ODL
-Floodlight
-RYU
-Utilities and Tools
-FlowSim
-Mininet
-Of DPA
-OF Test
-Wireshark
-Avior
-Open Source SDN Distributions (OSSDN Atrium, etc.)
-Open vSwitch
-Orchestration Systems
-Open Source Initiatives (OPNFV, OCP, ODCA, Open Config)
+1. Identify key open source projects in the SDN Ecosystem.
+  * Alpha
+  * Bravo
+2. OpenFlow® Agents
+  * Alpha
+  * Bravo
+3. Indigo
+  * Alpha
+  * Bravo
+4. Linc
+  * Alpha
+  * Bravo
+5. OVS
+  * Alpha
+  * Bravo
+6. CPqD/ONF Driver (aka "libFluid")
+  * Alpha
+  * Bravo
+7. OpenFlow® Controllers
+  * Alpha
+  * Bravo
+8. NOX
+  * Alpha
+  * Bravo
+9. POX
+  * Alpha
+  * Bravo
+10. ONOS
+  * Alpha
+  * Bravo
+11. ODL
+  * Alpha
+  * Bravo
+12. Floodlight
+  * Alpha
+  * Bravo
+13. RYU
+  * Alpha
+  * Bravo
+14. Utilities and Tools
+  * Alpha
+  * Bravo
+15. FlowSim
+  * Alpha
+  * Bravo
+16. Mininet
+  * Alpha
+  * Bravo
+17. Of DPA
+  * Alpha
+  * Bravo
+18. OF Test
+  * Alpha
+  * Bravo
+19. Wireshark
+  * Alpha
+  * Bravo
+20. Avior
+  * Alpha
+  * Bravo
+21. Open Source SDN Distributions (OSSDN Atrium, etc.)
+  * Alpha
+  * Bravo
+22. Open vSwitch
+  * Alpha
+  * Bravo
+23. Orchestration Systems
+  * Alpha
+  * Bravo
+24. Open Source Initiatives (OPNFV, OCP, ODCA, Open Config)
+  * Alpha
+  * Bravo
