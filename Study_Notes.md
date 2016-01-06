@@ -123,18 +123,31 @@ _From [studytonight] (http://www.studytonight.com/computer-networks/comparison-o
   * If you want a peek at the actual standards, the [IEEE] (https://www.ieee.org/) provides free downloads of the standards through their [Get Program] (https://standards.ieee.org/about/get/802/802.3.html).
   * [Cisco] (www.cisco.com) also has a pretty decent book on the Ethernet standards. Access it [here] (http://www.cisco.com/c/en/us/td/docs/net_mgmt/active_network_abstraction/3-7/reference/guide/ANARefGuide37/ethrnt.html)
 4. Collision domains and broadcast domains: 
-  Any decent entry level study should have materials on both of these topics. I have sourced a variety of sites online.
+   Any decent entry level certification study guide should have materials on both of these topics. 	
+   
+   A collision domain is a part of a network where packet collisions can occur  (OSI layer 1).  A broadcast domain contains all devices that can reach each other at the data link layer (OSI layer 2) by using a broadcast. A collision domain would be created by a hub while a broadcast domain would be created by a switch. Routers do not forward broadcasts hence the separate broadcast domains.
+   
+   I have also added a variety of sources found online.
   * Collision domains: [Wikipedia] (https://en.wikipedia.org/wiki/Collision_domain) to the rescue again: _"A collision domain is a section of a network connected by a shared medium or through repeaters where data packets can collide with one another when being sent, particularly when using early versions of Ethernet. A network collision occurs when more than one device attempts to send a packet on a network segment at the same time."_ See also Cisco's [learning network] (https://learningnetwork.cisco.com/thread/1734). See also [Study CCNA] (http://study-ccna.com/collision-broadcast-domain) for another good explanation.
-  * Broadcast domains: From [Wikipedia] (https://en.wikipedia.org/wiki/Broadcast_domain): -"A broadcast domain is a logical division of a computer network, in which all nodes can reach each other by broadcast at the data link layer. A broadcast domain can be within the same LAN segment or it can be bridged to other LAN segments."_
+  * Broadcast domains: From [Wikipedia] (https://en.wikipedia.org/wiki/Broadcast_domain): _"A broadcast domain is a logical division of a computer network, in which all nodes can reach each other by broadcast at the data link layer. A broadcast domain can be within the same LAN segment or it can be bridged to other LAN segments."_
+ 
 5. Function of routers and switches
-  * Alpha
-  * Bravo
+  * Switches create a network. A network switch connects multiple computers together within one local area network (LAN).
+  * Routers connect networks. A router links computers /resources in one network to resources in a different network. A router acts as a dispatcher, choosing the best path for information to travel so it's received quickly. Additional material can be found [here - Nutt.net] (http://www.nutt.net/2004/11/20/difference-in-hub-switch-bridge-router/).
+  
 6. Routing Protocols (RIP, OSPF, ISIS, BGP)
   * Alpha
   * Bravo
 7. Optical network fundamentals – SONET/SDH, OTN
-  * Alpha
-  * Bravo
+  ######SONET/SDH:
+SONET is a set of standards that define the rates and formats for optical networks specified in ANSI. A similar standard, Synchronous Digital Hierarchy (SDH), is specified by the International Telecommunication Union Telecommunication Standardization Sector (ITU-T).  SONET equipment is generally used in North America, and SDH equipment generally in the rest of the world. SONET defines optical carrier (OC) levels, electrically equivalent synchronous transport signals (STSs/STMs) and a synchronous frame structure for multiplexed digital traffic for the fiber-optic based transmission hierarchy. The SONET standard includes four  functional layers: the photonic, the section, the line, and the path layer. They correspond to both the physical and the data link layers.
+ * Photonic: This refers to the actual physical fibre-optic cable.
+ * Section: A section is a single fiber run that can be terminated by a network element (Line or Path) or an optical regenerator. The main function of the section layer is to properly format the SONET frames, and to convert the electrical signals to optical signals. Section Terminating Equipment (STE) can originate, access, modify, or terminate the section header overhead. A SONET STS-n signal is transmitted at 8000 frames per second (A standard STS-1 frame is nine rows by 90 bytes). Each byte in a SONET frame can carry a digitized voice channel. The first three bytes of each row comprise the Section and Line header overhead.
+ * Line: Line-Terminating Equipment (LTE) originates or terminates one or more sections of a line signal. The LTE does the synchronization and multiplexing of information on SONET frames. Multiple lower-level SONET signals can be mixed together to form higher-level SONET signals. An Add/Drop Multiplexer (ADM) is an example of LTE.
+ * Path:Path-Terminating Equipment (PTE) interfaces non-SONET equipment to the SONET network. At this layer, the payload is mapped and de-mapped into the SONET frame. For example, an STS PTE can assemble 25 1.544 Mbps DS1 signals and insert path overhead to form an STS-1 signal. This layer is concerned with end-to-end transport of data.
+			The first 3 columns of SONET frame are called Transport Overhead (TOH). The remaining 87 columns are called Synchronous Payload Envelope (SPE). The first column of SPE is called Payload Overhead (POH).In SONET, the data rate of an STS-n signal is n times the data rate of an STS-1 signal and the duration of any frame is 125us. Transport is achieved in SONET by packaging signals into containers. Section overheads are then added so that the signal and the quality of transmission are all traceable. The containers have two names depending on size: virtual tributary (VT) or a synchronous payload envelope (SPE). The path overhead contains data to control the facility (end to end) such as for path trace, error monitoring, far-end error, or virtual container (VC) composition. 
+
+  * 
 8. IP Network Services ( DHCP, DNS, ARP, NAT, ICMP)
   * Alpha
   * Bravo
