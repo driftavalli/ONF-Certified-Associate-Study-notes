@@ -313,79 +313,144 @@ The most well-known southbound interface is OpenFlow, others include:
   * Alpha
   * Bravo
 27. Match Actions
-  * Alpha
-  * Bravo
- 
+  * When a packet arrives at an OpenFlow switch, the header fields are compared to the table entries. If a match in the table entries is found, the packet is either forwarded to the specified port/ports or dropped. If a match isn’t found, the packet is sent to the controller. The controller informs the switch how the packet is to be processed and to create a new flow entry. 
+
 ### DOMAIN 4: SDN ARCHITECTURE AND ECOSYSTEM 25%
-1. Understand and Identify SDN architectural components, standards bodies, controller design, API’s and applications.
+Understand and Identify SDN architectural components, standards bodies, controller design, API’s and applications.
   * Alpha
   * Bravo
-2. SDN Layers
+
+1. SDN Layers
   * Alpha
   * Bravo
-3. SDN Architecture compared to Traditional Network Architectures
+2. SDN Architecture compared to Traditional Network Architectures
   * Alpha
   * Bravo
-4. Northbound API's
+3. Northbound API's
   * Alpha
   * Bravo
-5. Southbound API's
+4. Southbound API's
   * Alpha
   * Bravo
-6. East/West API's
+5. East/West API's
   * Alpha
   * Bravo
-7. Security and Availability
+6. Security and Availability
   * Alpha
   * Bravo
-8. Packet and Optical Integration methods
+7. Packet and Optical Integration methods
   * Alpha
   * Bravo
-9. Migration Strategies
+8. Migration Strategies
   * Alpha
   * Bravo
-10. Hybrid Mode Switches
-  * Alpha
-  * Bravo
+9. Hybrid Mode Switches
+  * HP Provision Switches
+  * Brocade VDX
+
 11. Organization in the SDN Ecosystem
   * Alpha
   * Bravo
 12. Standards Bodies and Industry alliances
-  * Alpha
-  * Bravo
+  * ONF (Open Networking Foundation)
+  * ETSI (European Telecommunication Standards Institute)
+  * IETF (Internet Engineering Task Force)
+  * IEEE (Institute of Electrical and Electronic Engineers)
+  * IMTC (International Multimedia Telecommunications Consortium)ITU (International Telecommunications Union)
+  * 
+  
 13. Network Operators and Enterprises
-  * Alpha
-  * Bravo
+  * Verizon
+  * NTT
+  * Deutsche Telekom
+  * AT&T
+  * Google
+  * Orange
+  * Vodafone
+
 14. Network Equipment Manufacturers
-  * Alpha
-  * Bravo
+  * HP (2920, 3500, 3800, 5400 ProCurve switches, )
+  * Brocade (ADX, CER 2000, CES 2000, MLX)
+  * Extreme Networks (Summit X670
+  * Cisco
+  * Juniper
+  * BigSwitch Networks
+  * Pica8
+  * IBM RackSwitch G8264T
+  * Infinera - DTN-X
+  * A10 Networks – AX Series
+
 15. Software vendors
-  * Alpha
-  * Bravo
+  * Juniper (Contrail, OpenContrail, NorthStar WAN SDN Controller)
+  * NEC (ProgrammableFlow Controller)
+  * HP (HP VAN SDN Controller)
+  * Cisco (Open SDN Controller, Application Policy Infrastructure Controller, APIC)
+  * Brocade (Vyatta Controller)
+  * B4N Controller
+  * Ericsson SDN Controller
+  * Extreme Networks OneController
+  * IBM Programmable Network Controller
+  * Inocybe Infrastructure Controller
+  * Nuage Virtualized Services Controller (VSC)
+  * Pica8 Integrated Open OVS Switch & Controller
+  * Plexxi Control
+
+  
 16. Academic and Industry research institutions and labs
-  * Alpha
-  * Bravo
+  * Open Networking La (ON.LAB)
+  * Stanford Clean Slate Project
+  * Open Networking Research Center (ONRC)
+  * Electronics and Telecommunications Research Institute (ETRI)
+  * International Computer Science Institute (ICSI)
+  * Internet2
+  * Centre of Excellence in Next Generation Networks (CENGN)
+  * China Academy of Telecommunication Research, MIIT
+  * University of New Hampshire InterOperability Laboratory (UNH-IOL)
+
 17. Open Source Initiatives
-  * Alpha
-  * Bravo
+  * Open vSwitch
+  * OpenDaylight
+  * OpenStack Foundation
+  * OpenConfig
+  * OpenCloud Connect
+  * Open Compute Project
+  * Open Container Project
+  * Open Networking Summit
+  * OPNFV
+  * P4
+  * Open Virtual Alliance
+  * Multimedia and Mobile Communications Lab (MMLab)
+  
 18. Who is the ONF and what do they do?
-  * Alpha
-  * Bravo
+  * Launched in 2011 by Deutsche Telekom, Facebook, Google, Microsoft, Verizon, and Yahoo!, ONF is a nonprofit organization dedicated to rethinking networking, and quickly and collaboratively bringing to market SDN standards and solutions. ONF is accelerating the delivery and commercialization of SDN and fostering a vibrant market of products, services, applications, customers, and users. The ONF is a user driven organization that is dedicated to accelerating the adoption of open Software-Defined Networking (SDN). 
+ 
 19. Purpose
-  * Alpha
-  * Bravo
+  * ONF develops open standards such as the OpenFlow® Standard and the OpenFlow® Configuration and Management Protocol Standard. The OpenFlow® Standard is the first and only vendor-neutral standard communications interface defined between the control and forwarding layers of an SDN architecture. ONF working groups also work on providing interoperable solution development on SDN concepts such as frameworks, architecture, and standards.
+  
 20. Structure
   * Alpha
   * Bravo
 21. Technical Working Groups
-  * Alpha
-  * Bravo
+  * Architecture and Framework.
+  * Forwarding Abstraction.
+  * Northbound Interfaces.
+  * Discussion Groups.
+  * Configuration and Management.
+  * Market Education.
+  * Optical Transport.
+  * Wireless & Mobile.
+  * Extensibility.
+  * Migration.
+  * Testing and Interoperability
+  
 22. Open Source Software Development
   * Alpha
   * Bravo
 23. Activities and Initiatives
-  * Alpha
-  * Bravo
+  * ONF-Certified SDN Professional (OCSP): A certification program will provide vendor-neutral SDN credentials to complement certifications in other technologies and programming languages. 
+  * ONF OpenFlow Conformance Testing Program: Conformance tests performed at independent, accredited labs that verify networking hardware and software from various vendors to assure compliance with the OpenFlow specification.
+  * Organizing PlugFest interoperability events, etc
+ 
 24. Controller Placement and Redundancy
   * Alpha
   * Bravo
@@ -401,23 +466,38 @@ The most well-known southbound interface is OpenFlow, others include:
   * Alpha
   * Bravo
 3. Indigo
-  * Alpha
-  * Bravo
+  * Indigo is an open source project to support OpenFlow on a range of physical and virtual switch platforms.  The Indigo architecture (Indigo-2 architecture) is specified in the header files in the indigo module.
+ 
 4. Linc
-  * Alpha
-  * Bravo
+  * LINC is a pure OpenFlow software switch written in Erlang. It has the following features:
+     - Support for OpenFlow Protocol 1.2, OpenFlow Protocol 1.3, and OpenFlow Protocol 1.4,
+     - OpenFlow Capable Switch - ability to run multiple logical switches,
+     - Support for OF-Config 1.1.1 management protocol,
+     - Modular architecture, easily extensible.
+
 5. OVS
-  * Alpha
-  * Bravo
+  * Open vSwitch is a multilayer software switch licensed under the open source Apache 2 license. The aim is a production quality switch platform that supports standard management interfaces and opens the forwarding functions to programmatic extension and control. It currently supports:
+     + Standard 802.1Q VLAN model with trunk and access ports
+     + NIC bonding with or without LACP on upstream switch
+     + NetFlow, sFlow(R), and mirroring for increased visibility
+     + QoS (Quality of Service) configuration, plus policing
+     + Geneve, GRE, GRE over IPSEC, VXLAN, and LISP tunneling
+     + 802.1ag connectivity fault management
+     + OpenFlow 1.0 plus numerous extensions
+     + Transactional configuration database with C and Python bindings
+     + High-performance forwarding using a Linux kernel module
+
 6. CPqD/ONF Driver (aka "libFluid")
-  * Alpha
-  * Bravo
+  * libfluid is a library bundle that provides the basic features to implement an OpenFlow controller. It is composed of two separate libraries:
+     * libfluid_base: classes for creating an OpenFlow server that listens to connections and handles events
+     * libfluid_msg: classes for easily building and parsing OpenFlow wire format messages
+  
 7. OpenFlow® Controllers
-  * Alpha
-  * Bravo
+  * An OpenFlow Controller is a type of SDN Controller that uses the OpenFlow Protocol.  OpenFlow Controllers create a central control point to oversee a variety of OpenFlow-enabled network components. The OpenFlow protocol is designed to increase flexibility by eliminating proprietary protocols from hardware vendors. An SDN Controller relays information to the switches/routers ‘below’ (via southbound APIs) and the applications and business logic ‘above’ (via northbound APIs).
+  
 8. NOX
-  * Alpha
-  * Bravo
+  * NOX is a Network Operating System that provides control and visibility into a network of OpenFlow switches. It supports concurrent applications written in Python and C++, and it includes a number of sample controller applications.
+
 9. POX
   * Alpha
   * Bravo
