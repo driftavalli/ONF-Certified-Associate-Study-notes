@@ -13,57 +13,105 @@ This is a repository to track my preparation for the ONF Certified Associate Cer
 5. SDN Open Source	 	10%
  
 ##### DOMAIN 1: NETWORKING CONCEPTS 15%
-1. Identify and compare the layers of OSI and TCP/IP models and functionality of various fundamental elements of networking.
-  * Alpha
-  * Bravo
+_Identify and compare the layers of OSI and TCP/IP models and functionality of various fundamental elements of networking._
+  * OSI Model - ISO/IEC 7498-1: a standard of the International Organization for Standardization (ISO). It is a general-purpose paradigm for discussing or describing how computers communicate with one another over a network. Its seven-layered approach to data transmission divides the many operations up into specific related groups of actions at each layer 
 2. OSI and TCP/IP Comparison.
 
     <table>
       <tr><center>
         <td><b>OSI</b></td>
         <td><b>TCP/IP</b></td>
-        <td><b>Comparison</b></td>
-      </center></tr>
+        </center>
+      </tr>
     
       <tr>
         <td>Application</td>
         <td rowspan = "3">Application</td>
-        <td></td>
       </tr>
       
       <tr>
         <td>Presentation&nbsp;</td>
-        <td>&nbsp;</td>
       </tr>
       
       <tr>
         <td>Session&nbsp;</td>
-        <td>&nbsp;</td>
       </tr>
     
       <tr>
         <td>Transport&nbsp;</td>
         <td>Transport&nbsp;</td>
-        <td>&nbsp;</td>
       </tr>
     
       <tr>
         <td>Network&nbsp;</td>
         <td>Internet&nbsp;</td>
-        <td>&nbsp;</td>
       </tr>
     
       <tr>
         <td>Data Link&nbsp;</td>
         <td rowspan = "2">Network Access&nbsp;</td>
-        <td>&nbsp;</td>
       </tr>
     
       <tr>
         <td>Physical&nbsp;</td>
-        <td>&nbsp;</td>
       </tr>
     </table>
+    From [studytonight] (http://www.studytonight.com/computer-networks/comparison-osi-tcp-model), following are some major differences between OSI Reference Model and TCP/IP Reference Model, with diagrammatic comparison below.<table>
+       <tr>
+         <td><b>OSI (Open System Interconnection)</b></td>
+         <td><b>TCP/IP (Transmission Control Protocol / Internet Protocol)</b></td>
+       </tr>
+       
+       <tr>
+         <td>1. OSI provides layer functioning and also defines functions of all the layers.</td>	
+         <td>1. TCP/IP model is more based on protocols and protocols are not flexible with other layers.</td>
+       </tr>
+       
+       <tr>
+         <td>2. In OSI model the transport layer guarantees the delivery of packets</td>	
+         <td>2. In TCP/IP model the transport layer does not guarantees delivery of packets.</td>
+       </tr>
+     
+       <tr>
+         <td>3. Follows horizontal approach</td>	
+         <td>3. Follows vertical approach.</td>
+       </tr>
+  
+       <tr>
+          <td>4. OSI model has a separate presentation layer</td>	
+          <td>4. TCP/IP does not have a separate presentation layer</td>
+       </tr>
+       
+       <tr>
+          <td>5. OSI is a general model.</td>	
+          <td>5. TCP/IP model cannot be used in any other application.</td>
+       </tr>
+       
+       <tr>
+          <td>6. Network layer of OSI model provide both connection oriented and connectionless service.	
+          <td>6. The Network layer in TCP/IP model provides connectionless service.</td>
+       </tr>
+       
+       <tr>
+          <td>7. OSI model has a problem of fitting the protocols in the model</td>	
+          <td>7. TCP/IP model does not fit any protocol</td>
+       </tr>
+       
+       <tr>
+          <td>8. Protocols are hidden in OSI model and are easily replaced as the technology changes.</td>	
+          <td>8. In TCP/IP replacing protocol is not easy.</td>
+       </tr>
+       
+       <tr>
+          <td>9. OSI model defines services, interfaces and protocols very clearly and makes clear distinction between them.</td>	
+          <td>9. In TCP/IP it is not clearly separated its services, interfaces and protocols.</td>
+       </tr>
+       
+       <tr>
+          <td>10. It has 7 layers</td>	10. 
+          <td>10. It has 4 layers</td>
+       </tr>
+     </table>
 
 3. Ethernet networks
   * Alpha
