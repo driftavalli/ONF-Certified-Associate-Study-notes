@@ -177,23 +177,54 @@ SONET is a set of standards that define the rates and formats for optical networ
 Describe the fundamental characteristics of SDN, definitions, use cases, and history.
 
 1. History of SDN (Clean Slate, Ethane, OpenFlow®, donation to ONF)
-  * Alpha
-  * Bravo
+  * Clean Slate project: program that sought to reimagine how networks were built and the underlying protocols. Had several programs at Stanford and Princeton universities.
+  * Ethane Project came out of Stanford and …
+  * OpenFlow was also primarily from Stanford and …
+  * Control and management of the OpenFlow protocol was handed over to ONF …
+
+ 
 2. What is SDN? (control and forwarding)
-  * Alpha
-  * Bravo
+  The [ONF defines SDN] (https://www.opennetworking.org/sdn-resources/sdn-definition) as "the physical separation of the network control plane from the forwarding plane, and where a control plane controls several devices. 
+  * Software-Defined Networking (SDN) is an emerging architecture that is dynamic, manageable, cost-effective, and adaptable, making it ideal for the high-bandwidth, dynamic nature of today's applications. This architecture decouples the network control and forwarding functions enabling the network control to become directly programmable and the underlying infrastructure to be abstracted for applications and network services. The OpenFlow® protocol is a foundational element for building SDN solutions.
+  * The SDN architecture is:
+	  1. Directly programmable: Network control is directly programmable because it is decoupled from forwarding functions.
+	  2. Agile: Abstracting control from forwarding lets administrators dynamically adjust network-wide traffic flow to meet changing needs.
+	  3. Centrally managed: Network intelligence is (logically) centralized in software-based SDN controllers that maintain a global view of the network, which appears to applications and policy engines as a single, logical switch.
+	  4. Programmatically configured: SDN lets network managers configure, manage, secure, and optimize network resources very quickly via dynamic, automated SDN programs, which they can write themselves because the programs do not depend on proprietary software.
+	  5. Open standards-based and vendor-neutral: When implemented through open standards, SDN simplifies network design and operation because instructions are provided by SDN controllers instead of multiple, vendor-specific devices and protocols."
+
+
 3. SDN Value Proposition
-  * Alpha
-  * Bravo
+  * Application/service enablement: The potential of layered applications that could control, coordinate and redefine the network to support new “value add” services will lead to reduced cycle time for introduction of new services as well as reduced cycle time to remove old or poor services.
+  * Reduced operational and total cost of ownership/Increased operational efficiencies: By implementing a more intelligent framework that abstracts the network allowing simplification of time consuming, or difficult operational tasks.
+  * Hardware simplification /flexibility: Differentiating network functionality in the software domain makes generic hardware possible and allows more resource pooling and functional flexibility. The composition or decomposition of functions allows more flexibility in responding to the market as well as allowing the creation of APIs much more quickly. This enables cost reduction based upon functional reallocation and resource scaling.
+
 5. SDN Use Cases in the Data Center
-  * Alpha
-  * Bravo
+  * Traffic Engineering
+  * Quality of Service
+  * Greater Link Loading/Utilization
+  * Virtual machine migration.
+  * Service chaining.
+  * Security services.
+  * Load balancer services.
+  * Software defined clouds.
+  * Cloud hosting.
+
 6. SDN Use Cases in Campus Networks
-  * Alpha
-  * Bravo
+  * Dynamic QoS and traffic engineering.
+  * Unified wired and wireless networks.
+  * QoS management for VoIP across wired and wireless networks.
+  * Role based access.
+
 7. SDN Use Cases in Service Providers
-  * Alpha
-  * Bravo
+  * Network Access Control: Provides the ability to set appropriate privileges/access control limits for users/devices accessing the networks, while incorporating service chains as well as quality of service. Also allows policy to follow the user/device as they connect from different parts of the network. 
+  * Network Virtualization: Allows the creation of an abstracted virtual network on top of a physical network, allowing a large number of multi-tenant networks to run over a physical network, spanning multiple racks in the datacenter or locations if necessary, including fine-grained controls and isolation as well as insertion of acceleration or security services.
+  * Mobility Virtualization: Virtual CPE and Service Chaining.
+  * NFV and Service Orchestration: Ability to provide a better way of operating in a hybrid, physical/virtual environment through orchestration. This allows the combination of virtual and physical networking functions such that the full benefits of the infrastructure is realized and thereby improve service delivery to end users.
+WAN Optimization & Innovation: The use of SDN through NfV reduces network complexity and leads to simpler network designs. This allows better visibility of the network which leads to better traffic engineering. A holistic view of the network across different transport and IP network layers can allow dynamic bandwidth optimization which reduces cost and is more responsive to business needs. An SDN controller can apply policy dynamically to improve the customer experience without over-provisioning.
+  * Policy Driven Application Provisioning & Delivery: Data center application delivery can a competitive advantage if done reliably and successfully. Eliminating the manual process of provisioning and delivering applications into a simplified, automated, policy-driven process can yield significant cost savings, as well as improvements in security compliance and customer experience. The ability to apply policies for applications consistently across the data center fabric and the WAN is an important business enabler.
+
+ 
 8. SDN Use Cases in the Enterprise
   * Alpha
   * Bravo
@@ -201,11 +232,35 @@ Describe the fundamental characteristics of SDN, definitions, use cases, and his
   * Alpha
   * Bravo
 10. The six characteristics of an SDN Network (Plane Separation, Simplified Forwarding Element, Centralized Control, Network Automation, Virtualization, and Openness)
-  * Alpha
-  * Bravo
+  * Plane Separation: Control and management planes separated from data plane. Network control is directly programmable.
+  * Simplified Forwarding Element: Packet switch simplification, no control logic, just forwarding function.
+  * Centralized Control: Control/management plane logic move to a Controller. Network intelligence is (logically) centralized in an SDN controller(s) that maintains a global network view and the network appears to applications and policy engines as a single, logical switch. The controller is an external entity which may run a Network Operating System (NOS) that runs on a commodity server and facilitates abstractions for programming packet switch. The controller allows the execution of programs and software applications run on top of the NOS  while the NOS interacts with the underlying packet switches
+  * Network Automation: Programmability and Agility: Programmatic configuration at user, network, switch, packet level which allows better management of the network; dynamic configuration and management to adjust/adapt network-wide traffic flow conforming the current needs. Security and resource optimization is based on automated SDN programs.
+  * Virtualization.
+  * Openness: Based on open standards and vendor-neutral. this simplifies network design as operation instructions are provided by SDN controllers and not multiple, vendor-specific devices and protocols. Control programs do not depend on proprietary software
+
+
 11. SDN Devices (Controllers, Switches, Orchestration, API's)
-  * Alpha
-  * Bravo
+  * Controllers: An SDN Controller in a software-defined network (SDN) contains the intelligence of the network. The controller is the logical/strategic control point in the SDN network, communicating with and relaying information to the switches ‘below’ (via southbound APIs) to provide networking instructions and the applications and business logic ‘above’ (via northbound APIs). 
+  * Switches: An SDN switch is a software program or hardware device that forwards packets in a software-defined networking (SDN) environment. OpenFlow SDN switches are either based on the OpenFlow protocol or compatible with it. In a traditional network switch, packet forwarding (the data plane) and high-level routing (the control plane) occur on the same device. In software-defined networking, the data plane is decoupled from the control plane. The data plane is still implemented in the switch itself but the control plane is implemented in software and a separate SDN controller makes high-level routing decisions. The switch and controller communicate by means of the OpenFlow protocol.
+  * Orchestration: Orchestration in a network context can be defined as the use of the automation to provide services using applications that drive the network. Software-defined networking (SDN) orchestration is the ability to program automated behaviours in a network to coordinate the required networking hardware and software elements to support applications and services.
+  * API's: An API is an interface presented by an application/software (e.g. network operating system) that provides the capability to collect information from or make a change to an underlying set of resources. In SDN, there are two classes of API seeing great development and debate, Northbound Interfaces (NBI) and Southbound Interface (SDI).
+The southbound application program interfaces (APIs) are used to communicate between the SDN Controller and the switches and routers of the network. They can be open or proprietary. 
+The most well-known southbound interface is OpenFlow, others include:
+
+			   - NetConf using XML
+			   - LISP
+			   - Cisco OnePK
+			   - Brocade OpenScript.
+			   
+The northbound application program interfaces (APIs) are used to communicate between the SDN Controller and the services and applications running over the network. The northbound APIs can be used to facilitate innovation and enable efficient orchestration and automation of the network to align with the needs of different applications via SDN network programmability.
+One of the benefits of an API is the abstraction it provides to a querying system. This abstraction hides the underlying system from the querying system and frees it from such considerations as:
+
+			   + the remote system’s query commands.
+			   + how information is organized.
+			   + the cli structures or restrictions in order to obtain information.
+
+  
 12. Overlay Networking Abstractions (NFV, VxLAN, etc.)
   * Alpha
   * Bravo
