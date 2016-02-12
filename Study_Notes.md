@@ -1,4 +1,4 @@
-A repository to track my preparation for the ONF Certified Associate Certification. The Blue Print is located at the ONF site. For authoritative and updated topics, kindly visit https://www.opennetworking.org/skills-associate#examblueprint. The material is from a variety of sites online, youtube videos and SDN books. As much as possible, sources of the materials are linked to. Omissions are not deliberate.
+A repository to track my preparation for the ONF Certified Associate Certification. The Blue Print is located at the ONF site. For authoritative and updated topics, kindly visit https://www.opennetworking.org/skills-associate#examblueprint. The material is from a variety of sites online, youtube videos and SDN books. As much as possible, sources of the materials are linked to. Omissions are not deliberate. Link to purchase a voucher http://sdnessentials.com/events/onf-certified-sdn-associate-exam/.
 
 ## ONF Certified SDN Associate Examination Blueprint
 
