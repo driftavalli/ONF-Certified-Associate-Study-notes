@@ -1,4 +1,4 @@
-This is a repository to track my preparation for the ONF Certified Associate Certification. The Blue Print is obtained from the ONF site and for authoritative and updated topics, kindly visit https://www.opennetworking.org/skills-associate#examblueprint. The material is from a variety of sites online, youtube videos and SDN books. As much as I can, I will be linking the source of the materials. Any omission is not deliberate and I will endeavour to cite as many sources as possible.
+A repository to track my preparation for the ONF Certified Associate Certification. The Blue Print is located at the ONF site. For authoritative and updated topics, kindly visit https://www.opennetworking.org/skills-associate#examblueprint. The material is from a variety of sites online, youtube videos and SDN books. As much as possible, sources of the materials are linked to. Omissions are not deliberate.
 
 ## ONF Certified SDN Associate Examination Blueprint
 
@@ -17,7 +17,7 @@ _Identify and compare the layers of OSI and TCP/IP models and functionality of v
   * OSI Model - ISO/IEC 7498-1: a standard of the International Organization for Standardization (ISO). Used for describing how computers communicate with one another over a network. It divides communication and data transmission between two compute nodes into seven layers with each layer responsible for specific functions and relies on the underlying layer for other needed services.
   * TCP/IP Model - : most widely used protocol suite. "[TCP/IP] (https://technet.microsoft.com/en-ca/library/cc786128%28v=ws.10%29.aspx?f=255&MSPPError=-2147217396) protocols map to a four-layer conceptual model known as the DARPA model, named after the U.S. government agency that initially developed TCP/IP. The four layers of the DARPA model are: Application, Transport, Internet, and Network Interface. Each layer in the DARPA model corresponds to one or more layers of the seven-layer Open Systems Interconnection (OSI) model." There is an TCP/IP tutoria [here] (). A [list](https://technet.microsoft.com/en-ca/library/cc737968(v=ws.10).aspx) of some TCP/IP _rfcs_ include: [768 - User Datagram Protocol (UDP)] (), [783 - Trivial File Transfer Protocol (TFTP)] (), [791 - Internet Protocol (IP)] (), [792 - Internet Control Message Protocol (ICMP)] (), [793 - Transmission Control Protocol (TCP)] (), [826 - Address Resolution Protocol (ARP)] (), [854 - Telnet Protocol (TELNET)] (), [862 - Echo Protocol (ECHO)] (), [959 - File Transfer Protocol (FTP)] (), [1112 - Internet Group Management Protocol (IGMP)] (), [115 - Simple Network Management Protocol (SNMP)] (), [2131 - Dynamic Host Configuration Protocol (DHCP)] (), [2236 - Internet Group Management Protocol, Version 2] (). 
 
-  * A very good resource is the [The TCP/IP Guide] (http://www.tcpipguide.com/index.htm) site, which provides a comprehensive study of the suite.
+  * A very good resource is the [The TCP/IP Guide] (http://www.tcpipguide.com/index.htm) site, which provides a comprehensive study of the TCP/IP suite.
 
 1. OSI and TCP/IP Comparison.
 
@@ -120,15 +120,15 @@ _From [studytonight] (http://www.studytonight.com/computer-networks/comparison-o
 
 3. Ethernet networks
   * [Wikipedia] (https://en.wikipedia.org/wiki/Ethernet) has a pretty comprehensive article on ethernet; _"Ethernet /ˈiːθərnɛt/ is a family of computer networking technologies for local area networks (LANs) and metropolitan area networks (MANs). It was commercially introduced in 1980 and first standardized in 1983 as IEEE 802.3,[1] and has since been refined to support higher bit rates and longer link distances. Over time, Ethernet has largely replaced competing wired LAN technologies such as token ring, FDDI, and ARCNET."_
-  * If you want a peek at the actual standards, the [IEEE] (https://www.ieee.org/) provides free downloads of the standards through their [Get Program] (https://standards.ieee.org/about/get/802/802.3.html).
-  * [Cisco] (www.cisco.com) also has a pretty decent book on the Ethernet standards. Access it [here] (http://www.cisco.com/c/en/us/td/docs/net_mgmt/active_network_abstraction/3-7/reference/guide/ANARefGuide37/ethrnt.html)
+  * For a peek at the actual standards, the [IEEE] (https://www.ieee.org/) provides free downloads of the standards through their [Get Program] (https://standards.ieee.org/about/get/802/802.3.html).
+  * [Cisco] (www.cisco.com) has a pretty decent book on the Ethernet standards. Access it [here] (http://www.cisco.com/c/en/us/td/docs/net_mgmt/active_network_abstraction/3-7/reference/guide/ANARefGuide37/ethrnt.html)
 4. Collision domains and broadcast domains: 
-   Any decent entry level certification study guide should have materials on both of these topics. 	
+   Entry level certification study guides should have materials on both of these topics. 	
    
    A collision domain is a part of a network where packet collisions can occur  (OSI layer 1).  A broadcast domain contains all devices that can reach each other at the data link layer (OSI layer 2) by using a broadcast. A collision domain would be created by a hub while a broadcast domain would be created by a switch. Routers do not forward broadcasts hence the separate broadcast domains.
    
-   I have also added a variety of sources found online.
-  * Collision domains: [Wikipedia] (https://en.wikipedia.org/wiki/Collision_domain) to the rescue again: _"A collision domain is a section of a network connected by a shared medium or through repeaters where data packets can collide with one another when being sent, particularly when using early versions of Ethernet. A network collision occurs when more than one device attempts to send a packet on a network segment at the same time."_ See also Cisco's [learning network] (https://learningnetwork.cisco.com/thread/1734). See also [Study CCNA] (http://study-ccna.com/collision-broadcast-domain) for another good explanation.
+   Variety of sources found online.
+  * Collision domains: [Wikipedia] (https://en.wikipedia.org/wiki/Collision_domain) to the rescue: _"A collision domain is a section of a network connected by a shared medium or through repeaters where data packets can collide with one another when being sent, particularly when using early versions of Ethernet. A network collision occurs when more than one device attempts to send a packet on a network segment at the same time."_ See also Cisco's [learning network] (https://learningnetwork.cisco.com/thread/1734). See also [Study CCNA] (http://study-ccna.com/collision-broadcast-domain) for another good explanation.
   * Broadcast domains: From [Wikipedia] (https://en.wikipedia.org/wiki/Broadcast_domain): _"A broadcast domain is a logical division of a computer network, in which all nodes can reach each other by broadcast at the data link layer. A broadcast domain can be within the same LAN segment or it can be bridged to other LAN segments."_
  
 5. Function of routers and switches
@@ -149,14 +149,17 @@ SONET is a set of standards that define the rates and formats for optical networ
 
   * 
 8. IP Network Services ( DHCP, DNS, ARP, NAT, ICMP)
-  * Alpha
-  * Bravo
+  * DHCP
+  * DNS
+  * ARP
+  * NAT
+  * ICMP
 9. Layer 2 addressing, including address resolution
   * Alpha
   * Bravo
 10. IPv4 and IPv6 fundamentals
-  * Alpha
-  * Bravo
+  * IPv4
+  * IPv6
 11. Layer 3 / IP addressing, including subnet masks
   * Alpha
   * Bravo
