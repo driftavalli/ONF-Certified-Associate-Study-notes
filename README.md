@@ -7,8 +7,8 @@ Study notes for the ONF Associate exam.
 Great blogs and other resources that may be useful.
 
 ### Web resources
-1. [Flowgrammable] (http://flowgrammable.org/) is a "lode stone of resources that should be mined for hours". 
-2. [The Packet Pushers] (http://www.packetpushers.net) podcasts (hosted by [Ethan Banks] (http://www.ethancbanks.com), [Greg Ferro] (http://www.etherealmind.com), [Drew Conray-Murray] (http://www.packetpushers.com), [Chris Wahl] (http://www.wahlnetworks.com)) networking and IT (series of really good podcasts that cover sdn, openflow great conversations with "VERY" knowledgeable hosts and guests).
+1. [Flowgrammable] (http://flowgrammable.org/). 
+2. [The Packet Pushers] (http://www.packetpushers.net) podcasts (hosted by [Ethan Banks] (http://www.ethancbanks.com), [Greg Ferro] (http://www.etherealmind.com), [Drew Conray-Murray] (http://www.packetpushers.net), [Chris Wahl] (http://www.wahlnetwork.com) networking and IT (series of really good podcasts that cover sdn, openflow great conversations with "VERY" knowledgeable hosts and guests).
 3. [Ivan Pepelnjak] (http://podcast.ipspace.net) with Sofware gone wild - GREAT technical podcast.
 4. [Matt Oswalt] (http://www.keepingitclassless.net) has a series on OpenFlow.
 5. [Brent Salisbury] (http://www.networkstatic.net) has some openflow and sdn articles
